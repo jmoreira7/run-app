@@ -19,7 +19,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Run App"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+rootProject.name = "RunApp"
 include(":app")
 include(":auth:data")
 include(":auth:domain")

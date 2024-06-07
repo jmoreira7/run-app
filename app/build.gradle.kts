@@ -2,14 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.mapsplatform.secrets.plugin)
+    alias(libs.plugins.runapp.android.application)
 }
 
 android {
-    namespace = "com.example.runapp"
+    namespace = "com.jmdev.runapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.runapp"
+        applicationId = "com.jmdev.runapp"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

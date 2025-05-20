@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="run_app">Run App</string>
+    <string name="welcome_to_run_app">Welcome to Run App!</string>
+    <string name="run_app_description">Track your runs, set goals and achieve milestones with our intuitive app.</string>
 </resources>

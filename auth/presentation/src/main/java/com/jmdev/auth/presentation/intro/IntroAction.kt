@@ -1,4 +1,6 @@
 package com.jmdev.auth.presentation.intro
 
-interface IntroAction {
+sealed interface IntroAction {
+    data object OnSignInClick : IntroAction
+    data object OnSignUpClick : IntroAction
 }

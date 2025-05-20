@@ -3,4 +3,6 @@
     <string name="run_app">Run App</string>
     <string name="welcome_to_run_app">Welcome to Run App!</string>
     <string name="run_app_description">Track your runs, set goals and achieve milestones with our intuitive app.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
 </resources>

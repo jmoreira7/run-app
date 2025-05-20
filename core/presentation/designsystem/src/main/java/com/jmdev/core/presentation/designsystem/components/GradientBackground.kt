@@ -68,20 +68,19 @@ fun GradientBackground(
                         radius = smallDimensionPx / 2f
                     )
                 )
+        )
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .then(
+                    if (hasToolBar) {
+                        Modifier
+                    } else {
+                        Modifier.systemBarsPadding()
+                    }
+                )
         ) {
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .then(
-                        if (hasToolBar) {
-                            Modifier
-                        } else {
-                            Modifier.systemBarsPadding()
-                        }
-                    )
-            ) {
-                content()
-            }
+            content()
         }
     }
 }
